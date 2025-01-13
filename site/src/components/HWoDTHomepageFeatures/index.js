@@ -49,7 +49,7 @@ function Feature({Svg, title, description}) {
   );
 }
 
-export default function HomepageFeatures() {
+export default function HWoDTHomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
