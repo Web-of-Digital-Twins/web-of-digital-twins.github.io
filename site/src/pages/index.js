@@ -7,7 +7,7 @@ import HWoDTHomepageFeatures from '@site/src/components/HWoDTHomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
-const SvgLogo = require('@site/static/img/wodt_logo.svg').default
+const SvgLogo = require('@site/static/img/hwodt_logo.svg').default
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();

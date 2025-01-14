@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'HWoDT Framework',
   tagline: 'A framework for interoperable ecosystems of Digital Twins',
-  favicon: 'img/wodt_logo.svg',
+  favicon: 'img/hwodt_logo.svg',
 
   // Set the production url of your site here
   url: 'https://web-of-digital-twins.github.io/',
@@ -50,7 +50,7 @@ const config = {
           editUrl:
             'https://github.com/Web-of-Digital-Twins/web-of-digital-twins.github.io/tree/main/site',
         },
-blog: false,
+        blog: false,
         // blog: {
         //   showReadingTime: true,
         //   feedOptions: {
@@ -77,24 +77,63 @@ blog: false,
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/wodt_logo.svg',
+      image: 'img/hwodt_logo.svg',
       navbar: {
         title: 'HWoDT Framework',
-        logo: {
-          alt: 'Hypermedia-based Web of Digital Twins Logo',
-          src: 'img/wodt_logo.svg',
-        },
+        // logo: {
+        //   alt: 'Hypermedia-based Web of Digital Twins Logo',
+        //   src: 'img/hwodt_logo.svg',
+        // },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'dropdown',
+            label: 'Code APIs',
+            position: 'left',
+            items: [
+                {
+                  label: 'wodt platform',
+                  href: 'https://web-of-digital-twins.github.io/wodt-platform/documentation/code-doc/',
+                },
+                {
+                  label: 'adt adapter',
+                  href: 'https://web-of-digital-twins.github.io/azuredt-wodt-adapter/documentation/code-doc/',
+                },
+                {
+                  label: 'wldt adapter',
+                  href: 'https://web-of-digital-twins.github.io/wldt-wodt-adapter/documentation/code-doc/',
+                }
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'Swagger',
+            position: 'left',
+            items: [
+                {
+                  label: 'wodt platform',
+                  href: 'https://web-of-digital-twins.github.io/wodt-platform/documentation/openapi-doc/',
+                },
+                {
+                  label: 'adt adapter',
+                  href: 'https://web-of-digital-twins.github.io/azuredt-wodt-adapter/documentation/openapi-doc/',
+                },
+                {
+                  label: 'wldt adapter',
+                  href: 'https://web-of-digital-twins.github.io/wldt-wodt-adapter/documentation/openapi-doc/',
+                }
+            ],
+          },
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://github.com/Web-of-Digital-Twins',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
             position: 'right',
           },
         ],
@@ -106,25 +145,17 @@ blog: false,
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Overview',
+                to: '/docs/overview',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'For Academia',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Publications',
+                to: '/academia',
               },
             ],
           },
@@ -132,17 +163,17 @@ blog: false,
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'GitHub Organization',
+                href: 'https://github.com/Web-of-Digital-Twins',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Authors',
+                href: '/authors',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Web of Digital Twinws, Org. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
