@@ -50,6 +50,7 @@ const config = {
           editUrl:
             'https://github.com/Web-of-Digital-Twins/web-of-digital-twins.github.io/tree/main/site',
         },
+blog: false,
         // blog: {
         //   showReadingTime: true,
         //   feedOptions: {
