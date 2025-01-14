@@ -173,7 +173,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Web of Digital Twinws, Org. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Web of Digital Twins, Org. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
