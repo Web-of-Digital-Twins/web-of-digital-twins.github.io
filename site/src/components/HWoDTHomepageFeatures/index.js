@@ -28,8 +28,8 @@ const FeatureList = [
     Svg: require('@site/static/img/supported-technologies.svg').default,
     description: (
       <>
-        HWoDT strategy is to add an interoperability layer on top of existing technologies.
-        The <strong>HWoDT Framework</strong> provides support for the main DT technologies.
+        HWoDT strategy is to add an interoperability layer on top of existing DT technologies.
+        The <strong>HWoDT Framework</strong> provides support for the main DT builders and frameworks.
       </>
     ),
   },
