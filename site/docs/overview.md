@@ -38,6 +38,6 @@ To support the management and to define a scope boundary for the operations on t
 
 ![Hypermedia-based WoDT schema](../static/img/hwodt.svg)
 
-The scheme depicts the HWoDT idea. Physical Assets, from different domain and organizations, are connected by relationships in the real world that are reified as relationships among the DTs mirroring them. DT ecosystems are built from DTs of different technologies with the support of the WoDT Platform instances. Consumers and applications reason over the digital replica of the portion of the reality by interacting either with the individual DTs (independently of the underlying technology thanks to the uniform interface) or with the whole ecosystem through the Platform.
+The scheme depicts the HWoDT idea. Physical Assets, from different domain and organizations, are connected by relationships in the real world that are reified as relationships among the DTs mirroring them. DT ecosystems are built from DTs of different technologies with the support of the WoDT Platform instances that aggregate registered DTs data and offer services at the ecosystem level. Consumers and applications reason over the digital replica of the portion of the reality by interacting either with the individual DTs (independently of the underlying technology thanks to the uniform interface) or with the whole ecosystem through the Platform.
 
-For further details please refer to the [paper](https://doi.org/10.1145/3652620.3688263).
+:page_facing_up: ***For further details please refer to the [publications](https://web-of-digital-twins.github.io/academia/).*** :page_facing_up:
