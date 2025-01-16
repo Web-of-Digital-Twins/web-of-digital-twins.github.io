@@ -27,7 +27,7 @@ A crucial choice is to see heterogeneity as an advantage that enables the reuse 
 HWoDT creates an interoperability layer on top of existing DTs for the creation of ecosystems of heterogeneous DTs. As discussed above, we have two main type of heterogeneity: the *metamodel* and the *technological* ones. \
 To cope with metamodel heterogeneity, a general-purpose metamodel is crucial. **Web of Digital Twins** metamodel is then choosen, forcing each DT to map its model to the WoDT metamodel, even at the cost of losing information. Remeber, that each DT will remain accessibile so, if needed, a Consumer that is technology-aware maintain access to the underlying information and services.
 
-To enable the DT-as-a-service vision providing technological-hiding we defined a uniform interface each DT must implement. REST is consolidated as an enabler of the information-hiding principle, so we have chosen to create an additional layer internal or external to DTs that exposes a REST-based uniform interface. \
+To enable the DT-as-a-service vision providing technological-hiding we defined a uniform interface each DT must implement (usually implemented in a HWoDT Adapter for the DT technology at hand). REST is consolidated as an enabler of the information-hiding principle, so we have chosen to create an additional layer internal or external to DTs that exposes a REST-based uniform interface. \
 Our strategy is to simply map REST constraints to our scenario by exploiting Web technologies, paradigms, and protocols.
 
 Therefore, interoperability is enabled only by the DTs themselves, which expose a uniform interface, following the DT-as-a-service perspective. The ecosystem abstraction provides a boundary of consistency for ecosystem-wide services leveraging the DTs’ interfaces to build it.
@@ -44,7 +44,7 @@ A DT is instead identified for its whole lifecycle by an *URI*, that allows to u
 
 ### Semantic representations
 A HWoDT DT exposes two forms of representations as part of its uniform interface:
-- **Digital Twin Description**: contains a static semantic description of DT’s metadata, DT model, exposed interaction patterns, and so on. It is fundamental for the automatic processing of Digital Twins.
+- **Digital Twin Description**: contains a static semantic description of DT’s metadata, DT model, exposed interaction patterns, and so on. It is fundamental for the automatic processing of Digital Twins. The content of the DTD depends only on the DT model and interface, so it does not depend on DT current state (or DTKG).
 - **Digital Twin Knowledge Graph**: models the current state of the DT through an RDF-based Knowledge Graph expressed with the reference ontologies for the domain of interest. It models the current property values, the available actions, and the relationship instances. This enables a Consumer to navigate in a domain-oriented representation of the world.
 
 When a DT URI is dereferenced returns the DTKG, enabling navigation in the current state of the world following DT relationships, compatibly with [*Linked Data Principles*](https://www.w3.org/DesignIssues/LinkedData.html).
