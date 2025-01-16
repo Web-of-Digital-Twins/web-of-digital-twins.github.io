@@ -11,7 +11,8 @@ Here is the simple checklist that you need to cover in order to implement your H
 - [ ] The DTD and the DTKG must be generated and exposed. To this end follow the [DTD Conceptual Model](https://github.com/Web-of-Digital-Twins/dtd-conceptual-model), especially the supported [DTD WoT implementation](https://github.com/Web-of-Digital-Twins/dtd-conceptual-model/blob/main/implementations/wot/wot-mappings.md).
 - [ ] The required interaction patterns must be implemented.
 
-The information needed and the constraints to respect to implement the aferomentioned tasks can be found in our [paper](https://doi.org/10.1145/3652620.3688263).
+The information needed and the constraints to respect to implement the aferomentioned tasks can be found in the [interoperability](https://web-of-digital-twins.github.io/docs/concepts/interoperability/) and [dtd conceptual model](https://web-of-digital-twins.github.io/docs/concepts/dtd-conceptual-model/) pages. \
+Otherwise you can check the code of our HWoDT Adapters! :sunglasses:
 
 If you want, you can also share your adapter with us, and we will consider to include your work within our framework :sunglasses::fire:. \
 Remember, if you contribute with an academic work, please remeber to cite us (see our [academia page](https://web-of-digital-twins.github.io/academia/)).

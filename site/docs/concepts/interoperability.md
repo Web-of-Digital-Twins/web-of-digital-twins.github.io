@@ -4,6 +4,8 @@ sidebar_label: Interoperability
 ---
 
 # How do we provide interoperability?
+This section describes how the HWoDT vision provide interoperability in DT ecosystems.
+
 ## Heterogeneity as an advantage
 The **Hypermedia-based Web of Digital Twins** goal is to streamline the design and the creation of Digital Twins ecosystems starting from existent Digital Twins, developed with heterogeneous technologies. HWoDT does not propose another framework to build Digital Twins (*it is not a silver bullet*), but its approach is orthogonal: ***provide interoperability over an heterogeneous world following the DT-as-a-service paradigm***.
 
@@ -62,11 +64,13 @@ The WoDT Platform is the HWoDT centralized approach to offer services for Consum
 
 DTs can become part of an ecosystem by submitting the corresponding DTD (i.e. with a POST request to the WoDT Platform) either:
 - automatically configuring the DT to join some targets WoDT Platform at the startup;
-- manually by the administrator of the WoDT Platform.
+- manually by the administrator of the WoDT Platform. In this case the WoDT Platform will notify the interested DT. For this reason the DT must accept an HTTP POST request at the `<dt_uri>/platform` endpoint.
 
-After a DT is registered, the WoDT Platform process the DTD to fecth the interaction pattern endpoint for the DTKG observation. \
+After a DT is registered, the WoDT Platform process the DTD to fecth the interaction pattern endpoint for the DTKG observation.
 The DT ecosystem Knowledge Graph is built by the WoDT Platform by the continuous process of aggregating both DTKGs and DTDs from the registered DTs. Hence, both state and metadata are merged to enable more powerful queries that can retrieve both DT state and its metadata. \
 Moreover, the DT ecosystem KG acts as a local cache that Consumers can exploit. DT URIs are translated to URLs that point to the cached version, allowing navigation within the cache.
+
+Obviously, DTs can remove themselves or be removed from a DT ecosystem with an HTTP DELETE request on the WoDT Platform at the DT mapped URL.
 
 The creation of the DT ecosystem KG enables the WoDT Platform to offer services at the DT ecosystem level:
 - *Snapshot of the DT ecosystem KG*: an HTTP GET request on the WoDT Platform URI returns a 303 Status code (considering that the ecosystem is a [*non-information resource*](https://www.w3.org/TR/cooluris/)) with the `Location` HTTP Header set to the URL of the DT ecosystem KG.
