@@ -91,6 +91,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+          {to: '/academia', label: 'Publications', position: 'left'},
           {
             type: 'dropdown',
             label: 'Code APIs',
@@ -129,7 +130,6 @@ const config = {
                 }
             ],
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Web-of-Digital-Twins',
             className: 'header-github-link',
