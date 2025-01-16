@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="46.699768mm"
+   height="45.29089mm"
+   viewBox="0 0 46.699766 45.290888"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="abstract_arch.svg"
+   inkscape:export-filename="abstract_arch.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="5.3589026"
+     inkscape:cx="100.7669"
+     inkscape:cy="57.381151"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffff00" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Dot"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         sodipodi:nodetypes="sssss"
+         id="path17" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker45"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path45" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker38"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path38" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8" />
+    </marker>
+    <rect
+       x="173.67123"
+       y="453.38232"
+       width="208.03654"
+       height="81.720772"
+       id="rect25" />
+    <rect
+       x="196.53326"
+       y="460.42587"
+       width="171.18716"
+       height="64.749214"
+       id="rect24" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker38-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path38-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path1-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker45-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path45-1" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-53.213803,-92.915944)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.111402;stroke-dasharray:none"
+       id="rect1"
+       width="41.789642"
+       height="4.6530414"
+       x="53.91917"
+       y="130.9549" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none"
+       id="rect1-4"
+       width="11.948389"
+       height="4.6710286"
+       x="87.178726"
+       y="107.0546" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none"
+       id="rect1-4-6"
+       width="15.059235"
+       height="4.6719885"
+       x="72.139435"
+       y="107.05414" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none"
+       id="rect1-4-6-2"
+       width="7.5978231"
+       height="4.6461496"
+       x="72.127647"
+       y="102.41434" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none"
+       id="rect1-4-6-2-9"
+       width="19.398878"
+       height="4.630425"
+       x="79.725471"
+       y="102.42222" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none"
+       id="rect1-4-6-2-9-5"
+       width="26.996702"
+       height="4.6304231"
+       x="72.127647"
+       y="97.791794" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="74.77166"
+       y="133.64195"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+         x="74.77166"
+         y="133.64195">Digital Twin / DT Builder</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="58.981586"
+       y="127.36225"
+       id="text1-1"><tspan
+         sodipodi:role="line"
+         id="tspan1-2"
+         style="font-size:1.41111px;line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+         x="58.981586"
+         y="127.36225">DTD </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+         x="58.981586"
+         y="128.77336"
+         id="tspan4">Manager</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="58.239143"
+       y="120.31446"
+       id="text1-1-7"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+         x="58.239143"
+         y="120.31446"
+         id="tspan4-5">Platform</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+         x="58.239143"
+         y="121.72557"
+         id="tspan29">Management</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+         x="58.239143"
+         y="123.13668"
+         id="tspan30">Interface</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="60.104092"
+       y="137.10176"
+       id="text1-1-7-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:FreeSans;-inkscape-font-specification:'FreeSans Semi-Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+         x="60.104092"
+         y="137.10176"
+         id="tspan30-3">WoDT Digital Twin</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="94.106354"
+       y="97.185318"
+       id="text1-1-7-0-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:FreeSans;-inkscape-font-specification:'FreeSans Semi-Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+         x="94.106354"
+         y="97.185318"
+         id="tspan30-3-1">WoDT Platform</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none"
+       id="rect1-5"
+       width="31.605474"
+       height="3.0544672"
+       x="64.109039"
+       y="127.8625" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.100494;stroke-dasharray:none"
+       id="rect1-5-3"
+       width="10.862325"
+       height="3.3993001"
+       x="84.852188"
+       y="124.4632" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="79.915306"
+       y="129.75874"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="79.915306"
+         y="129.75874">WoDT Shadowing Adapter</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="79.18438"
+       y="121.53713"
+       id="text2-8"><tspan
+         sodipodi:role="line"
+         id="tspan2-8"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="79.18438"
+         y="121.53713">WoDT Digital Twin Interface</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="79.633774"
+       y="108.86873"
+       id="text2-8-6"><tspan
+         sodipodi:role="line"
+         id="tspan2-8-6"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="79.633774"
+         y="108.86873">Ecosystem </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="79.633774"
+         y="110.63261"
+         id="tspan31">Management Interface</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="76.046501"
+       y="104.21677"
+       id="text2-8-6-6"><tspan
+         sodipodi:role="line"
+         id="tspan2-8-6-1"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="76.046501"
+         y="104.21677">Ecosystem </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="76.046501"
+         y="105.98065"
+         id="tspan31-0">Registry</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="93.145866"
+       y="109.0078"
+       id="text2-8-6-0"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="93.145866"
+         y="109.0078"
+         id="tspan33">WoDT Digital</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="93.145866"
+         y="110.77168"
+         id="tspan34">Twins Observer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="89.410797"
+       y="104.22449"
+       id="text2-8-6-0-9"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="89.410797"
+         y="104.22449"
+         id="tspan35">Platform Knowledge Graph</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="89.410797"
+         y="105.98838"
+         id="tspan6">Engine</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="85.636581"
+       y="100.60725"
+       id="text2-8-6-0-9-6"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="85.636581"
+         y="100.60725"
+         id="tspan36">WoDT Platform Interface</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:0;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="90.24807"
+       y="126.53186"
+       id="text2-2"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;line-height:1.25;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="90.24807"
+         y="126.53186"
+         id="tspan5"><tspan
+   id="tspan24"
+   style="font-size:1.41111px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.19">DTKG </tspan>Engine</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2"
+       width="10.173925"
+       height="6.4889107"
+       x="53.936958"
+       y="124.46535" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2-5"
+       width="8.7027206"
+       height="6.4800243"
+       x="53.930119"
+       y="117.98532" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.099971;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2-5-0"
+       width="33.081951"
+       height="6.3774905"
+       x="62.632824"
+       y="117.98573" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.76389px;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.19;stroke-dasharray:none;stroke-opacity:1"
+       x="57.992851"
+       y="127.57505"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="stroke-width:0.19"
+         x="57.992851"
+         y="127.57505" /></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.0990373;stroke-dasharray:0.39615, 0.792298;stroke-dashoffset:0"
+       id="rect1-5-3-9-3"
+       width="6.895205"
+       height="3.2994735"
+       x="64.109917"
+       y="124.46487" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.0990014;stroke-dasharray:0.396006, 0.79201;stroke-dashoffset:0"
+       id="rect1-5-3-9-3-7"
+       width="6.9016099"
+       height="3.2972996"
+       x="71.003899"
+       y="124.46596" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="81.366127"
+       y="125.85056"
+       id="text2-2-2"><tspan
+         style="font-size:1.23472px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.19"
+         sodipodi:role="line"
+         id="tspan23-2"
+         x="81.366127"
+         y="125.85056">DTKG</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.23472px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="81.366127"
+         y="127.26167"
+         id="tspan5-8">Store</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.23473px;line-height:1;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="74.418152"
+       y="125.81097"
+       id="text2-2-2-0"><tspan
+         sodipodi:role="line"
+         style="font-size:1.23473px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="74.418152"
+         y="125.81097"
+         id="tspan5-8-3">DT Event</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.23473px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="74.418152"
+         y="127.0457"
+         id="tspan27">Dispatcher</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.23473px;line-height:1;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19;stroke-dasharray:none"
+       x="67.545296"
+       y="125.90913"
+       id="text2-2-2-0-1"><tspan
+         sodipodi:role="line"
+         style="font-size:1.23473px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="67.545296"
+         y="125.90913"
+         id="tspan27-5">DT Action</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.23473px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.19"
+         x="67.545296"
+         y="127.14386"
+         id="tspan28">Queue</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.0989488;stroke-dasharray:0.395794, 0.791591;stroke-dashoffset:0"
+       id="rect1-5-3-9-3-0"
+       width="6.9479218"
+       height="3.2935381"
+       x="77.905228"
+       y="124.46784" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text24"
+       style="font-size:5.33333px;line-height:1;font-family:FreeSans;-inkscape-font-specification:FreeSans;white-space:pre;shape-inside:url(#rect24);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.71811;stroke-dasharray:0.795584, 1.59117;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text25"
+       style="font-size:4px;line-height:1;font-family:FreeSans;-inkscape-font-specification:FreeSans;white-space:pre;shape-inside:url(#rect25);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.71811;stroke-dasharray:0.795584, 1.59117;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#RoundedArrow);marker-end:url(#marker38)"
+       d="m 58.727073,117.23195 v -1.96682 h 21.449193 l 0.01,-2.79249"
+       id="path36"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#RoundedArrow-6);marker-end:url(#marker38-9)"
+       d="m 83.807654,117.23222 v -1.96257 h 10.142169 l 0.0047,-2.78648"
+       id="path36-1"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.23472px;line-height:1;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="69.419479"
+       y="114.73524"
+       id="text38"><tspan
+         sodipodi:role="line"
+         id="tspan38"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.23472px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Italic';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none"
+         x="69.419479"
+         y="114.73524">Registration and management</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.23472px;line-height:1;font-family:FreeSans;-inkscape-font-specification:'FreeSans Italic';text-align:center;text-anchor:middle;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="88.294838"
+       y="114.86303"
+       id="text38-9"><tspan
+         sodipodi:role="line"
+         id="tspan38-0"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.23472px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Italic';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15"
+         x="88.294838"
+         y="114.86303">DTKG Observation</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path40"
+       cx="59.160885"
+       cy="98.853539"
+       r="4.9499998" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:FreeSans;-inkscape-font-specification:'FreeSans Semi-Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="59.146774"
+       y="99.36013"
+       id="text40"><tspan
+         sodipodi:role="line"
+         id="tspan40"
+         style="font-size:1.41111px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="59.146774"
+         y="99.36013">Consumer</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.4;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowWide);marker-mid:url(#Dot);marker-end:url(#marker45)"
+       d="m 63.746097,101.31933 c 0,0 2.317302,0.61997 3.741649,0.41479 1.452958,-0.2093 2.787104,-1.28569 4.496637,-1.62711"
+       id="path44"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:0.4, 0.4;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowWide-8);marker-mid:url(#Dot);marker-end:url(#marker45-8)"
+       d="m 60.570123,103.89882 c 0,0 1.109702,3.17968 2.190307,5.2009 2.094721,3.91807 5.851351,4.57675 7.783811,8.7113"
+       id="path44-3"
+       sodipodi:nodetypes="csc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.705556px;line-height:1;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="67.700172"
+       y="102.65425"
+       id="text45"><tspan
+         sodipodi:role="line"
+         id="tspan45"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.705556px;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none"
+         x="67.700172"
+         y="102.65425">Interaction patterns</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.705556px;line-height:1;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="65.834534"
+       y="108.90927"
+       id="text45-1"><tspan
+         sodipodi:role="line"
+         id="tspan45-7"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.705556px;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none"
+         x="65.834534"
+         y="108.90927">Interaction patterns</tspan></text>
+  </g>
+</svg>
