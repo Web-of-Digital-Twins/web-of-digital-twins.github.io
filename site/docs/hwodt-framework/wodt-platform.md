@@ -19,9 +19,9 @@ In the following a Components and Connectors diagrams depicting the platform mod
 
 Interactions between components are mostly event-driven and based on the usage of *Kotlin coroutines and flows*.
 
-The usage information are available in the README of the **[GitHub repository](https://github.com/Web-of-Digital-Twins/wodt-platform)**.
+**The usage information are available in the README of the [GitHub repository](https://github.com/Web-of-Digital-Twins/wodt-platform).**
 
-### Useful links:
+### Useful links
 - **[GitHub repository](https://github.com/Web-of-Digital-Twins/wodt-platform)**
 - **[Swagger API doc](https://web-of-digital-twins.github.io/wodt-platform/documentation/openapi-doc/)**
 - **[Code documentation](https://web-of-digital-twins.github.io/wodt-platform/documentation/code-doc/)**
