@@ -25,8 +25,8 @@ The WoDT defines a general-purpose metamodel used to represent each DT:
 
 Hence, the **WoDT** is a dynamic set of indipendent DTs, each one with its model and state, linked according to the relationships between PAs that are reifed in the digital world.
 
-### Why the HWoDT proposal and Framework?
-The wide applicability of the DT paradigm led to the creation of several technologies eg., [Azure Digital Twins](https://azure.microsoft.com/en-us/products/digital-twins), [AWS IoT TwinMaker](6https://aws.amazon.com/iot-twinmaker/) [Eclipse Ditto](7https://eclipse.dev/ditto/index.html).
+### Why the HWoDT proposal?
+The wide applicability of the DT paradigm led to the creation of several technologies eg., [Azure Digital Twins](https://azure.microsoft.com/en-us/products/digital-twins), [AWS IoT TwinMaker](https://aws.amazon.com/iot-twinmaker/) [Eclipse Ditto](https://eclipse.dev/ditto/index.html).
 
 This technological heterogeneity must be considered to actually design and implement DT ecosystem, especially when they are created over legacy software or by including existing DTs -- that could be still needed for other consumers. With different technologies, Consumers need to be aware of the underlying stack to use the required API or SDK at hand. This could be problematic in the long-term, especially for highly dynamic ecosystems. So, the need for technological-hiding and for an uniform interface that enable applications to access the DTs within an ecosystem arise.
 
@@ -40,4 +40,13 @@ To support the management and to define a scope boundary for the operations on t
 
 The scheme depicts the HWoDT idea. Physical Assets, from different domain and organizations, are connected by relationships in the real world that are reified as relationships among the DTs mirroring them. DT ecosystems are built from DTs of different technologies with the support of the WoDT Platform instances that aggregate registered DTs data and offer services at the ecosystem level. Consumers and applications reason over the digital replica of the portion of the reality by interacting either with the individual DTs (independently of the underlying technology thanks to the uniform interface) or with the whole ecosystem through the Platform.
 
-:page_facing_up: ***For further details please refer to the [publications](https://web-of-digital-twins.github.io/academia/).*** :page_facing_up:
+***For further details please refer to the [publications](https://web-of-digital-twins.github.io/academia/)*** :page_facing_up:.
+
+
+### The HWoDT Framework
+
+The **HWoDT Framework** is a set of tools developers can use to build heterogeneous DT ecosystems following the HWoDT vision. The tools are available as open-source projects in our [GitHub Organization](https://github.com/Web-of-Digital-Twins). \
+To ease the development of DT ecosystems involving existing DT technologies and to showcase how esily existing DTs can be ported to be HWoDT-compliant, our toolkit includes an implementation of the ***WoDT Platform*** and several ***HWoDT Adapter*** that enable the HWoDT uniform interface on top of existing technologies: 
+- [*Azure Digital Twins*](https://github.com/Web-of-Digital-Twins/azuredt-wodt-adapter)
+- [*Eclipse Ditto*](https://github.com/Web-of-Digital-Twins/ditto-wodt-adapter)
+- [*White Label Digital Twins*](https://github.com/Web-of-Digital-Twins/wldt-wodt-adapter)
