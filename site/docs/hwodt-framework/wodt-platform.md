@@ -14,7 +14,8 @@ In the current implementation we provide the following interfaces:
 - WebSocket support to observe DTs by the `WoDT Digital Twins Observer`.
 
 In the following a Components and Connectors diagrams depicting the platform modules and interfaces.
-![Hypermedia-based WoDT schema](../../static/img/platform-cc.svg)
+
+![Platform components and connectors](../../static/img/platform-cc.svg)
 
 Interactions between components are mostly event-driven and based on the usage of *Kotlin coroutines and flows*.
 
