@@ -40,7 +40,11 @@ The strategy followed in the design of the adapter was allow Users create a new 
 The provided Azure Function and the adapter logics are able to process them and include in the DTD and DTKG. \
 The DTDL model to create the External DTs is available [here](https://github.com/Web-of-Digital-Twins/azuredt-wodt-adapter/blob/main/dtdl/ExternalDT.json).
 
-
+### Limits
+Currently the adapter does not support:
+- Relationship properties
+- Components
+- Complex properties e.g., Objects, Maps.
 
 ### Useful links
 - **[GitHub repository](https://github.com/Web-of-Digital-Twins/azuredt-wodt-adapter)**
