@@ -18,3 +18,4 @@ In the following a Components and Connectors diagrams depicting the Eclipse Ditt
 
 ### Useful links
 - **[GitHub repository](https://github.com/Web-of-Digital-Twins/azuredt-wodt-adapter)**
+- **[Configuration example](https://github.com/Web-of-Digital-Twins/major-trauma-management-case-study/tree/main/ditto-dts)**

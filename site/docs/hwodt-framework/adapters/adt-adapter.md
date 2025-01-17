@@ -50,3 +50,4 @@ Currently the adapter does not support:
 - **[GitHub repository](https://github.com/Web-of-Digital-Twins/azuredt-wodt-adapter)**
 - **[Swagger API doc](https://web-of-digital-twins.github.io/azuredt-wodt-adapter/documentation/openapi-doc/)**
 - **[Code documentation](https://web-of-digital-twins.github.io/azuredt-wodt-adapter/documentation/code-doc/)**
+- **[Configuration example](https://github.com/Web-of-Digital-Twins/major-trauma-management-case-study/tree/main/azure-dts)**
