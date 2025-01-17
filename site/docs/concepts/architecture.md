@@ -58,3 +58,26 @@ To serve its responsibilities it additionally validate the DTDs and notify the e
 **`Platform Knowledge Graph Engine`**: this component **manages the DT ecosystem KG** handling the continuous merging process of the DTKGs and of the DTDs, as well as the data deletion of removed DTs. Moreover, the engine **resolves SPARQL queries and data requests**.
 
 **`WoDT Platform Interface`**: this component **exposes the WoDT Platform interaction patterns** for ecosystem-level services.
+
+
+## Interaction flows
+To clarify the relationships between the different components of the Abstract Architecture, we discuss two basic flows, using *UML Sequence Diagrams*. \
+The diagrams should not be considered as the actual and precise design of the flows in the current implementation. For example, the proposed WoDT Platform implementation is mostly event-driven resulting in simpler interactions.
+
+### DT Registration process (by the DT)
+![UML Sequence Diagram of DT registration](../../static/img/sequence-registration.svg)
+
+Assuming that the DT already knows the URL of the WoDT Platform the flow starts with the `Platform Management Interface` sending the registration request, with its DTD in the request body, to the `Ecosystem Management Interface` of the Platform. \
+The `Ecosystem Management Interface` validates and checks the received DTD. \
+If the DTD is invalid, then it cannot proceed and returns the error to the DT `Platform Management Interface`. \
+Otherwise, if the DTD is valid, it can finalize the registration process by adding it to the `Ecosystem Registry` and notifying the `WoDT Digital Twins Observer`, to start observing the new WoDT DT, and the `Platform Knowledge Graph Engine`, to merge the new DTD to the DT ecosystem KG. \
+Finally, the registration is confirmed to the WoDT DT, and the `WoDT Digital Twins Observer`, as soon as it processes its DTD, starts observing the newly registered DT.
+
+### WoDT DT observation
+![UML Sequence Diagram of DT registration](../../static/img/sequence-observation.svg)
+
+Observe a WoDT DT does not require any out-of-band information because its uniform interface is self-descriptive and contains all the information Consumers need. \
+A Consumer requests the DTD to the `WoDT Digital Twin Interface`. The latter obtains the current DTD from the `DTD Manager` and returns it to the Consumer. \
+Then, the Consumer processes the DTD to get the observation affordance and starts to observe the WoDT DT. 
+
+Physical Asset updates are shadowed to the DT. The `WoDT Shadowing Adapter`, extending the DT shadowing process, handles the event and sends it to the `DTKG Engine` that updates its internal Knowledge Graph and notifies the `WoDT Digital Twin Interface`. The latter forward the event to all the observers, including the aforementioned Consumer.
