@@ -13,7 +13,7 @@ In the current implementation we provide the following interfaces:
 - WebSocket endpoint to observe the DT ecosystem KG exposed by the `WoDT Platform Interface`.
 - WebSocket support to observe DTs by the `WoDT Digital Twins Observer`.
 
-In the following a Components and Connectors diagrams depicting the platform modules and interfaces.
+In the following a Components and Connectors diagram depicting the platform modules and interfaces.
 
 ![Platform components and connectors](../../static/img/platform-cc.svg)
 

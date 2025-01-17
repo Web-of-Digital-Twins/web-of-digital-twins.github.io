@@ -14,7 +14,7 @@ In the current implementation we provide the following interfaces:
 - HTTP-based API that implements the HWoDT interaction patterns and uniform interface.
 - WebSocket-based DTKG observation endpoint.
 
-In the following a Components and Connectors diagrams depicting the WLDT HWoDT Adapter modules and interfaces.
+In the following a Components and Connectors diagram depicting the WLDT HWoDT Adapter modules and interfaces.
 
 ![WLDT HWoDT Adapter components and connectors diagram](../../../static/img/wldt-adapter-cc.svg)
 

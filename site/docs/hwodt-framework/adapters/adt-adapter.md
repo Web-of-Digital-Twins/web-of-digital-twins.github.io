@@ -16,7 +16,7 @@ In the current implementation we provide the following interfaces:
 - HTTP-based API that implements the HWoDT interaction patterns and uniform interface.
 - WebSocket-based DTKG observation endpoint.
 
-In the following a Components and Connectors diagrams depicting the Azure HWoDT Adapter modules and interfaces.
+In the following a Components and Connectors diagram depicting the Azure HWoDT Adapter modules and interfaces.
 
 ![ADT HWoDT Adapter components and connectors diagram](../../../static/img/adtadapter-cc.svg)
 
