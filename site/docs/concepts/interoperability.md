@@ -75,6 +75,7 @@ Obviously, DTs can remove themselves or be removed from a DT ecosystem with an H
 The creation of the DT ecosystem KG enables the WoDT Platform to offer services at the DT ecosystem level:
 - *Snapshot of the DT ecosystem KG*: an HTTP GET request on the WoDT Platform URI returns a 303 Status code (considering that the ecosystem is a [*non-information resource*](https://www.w3.org/TR/cooluris/)) with the `Location` HTTP Header set to the URL of the DT ecosystem KG.
 - *Cached DT snapshot*: an HTTP GET request on the mapped URL returns the DT's DTKG local cache on the WoDT Platform. The response has an HTTP Link Header with relation type `original` to allow Consumers navigate to the original DT.
+- *SPARQL Query on the DT ecosystem KG*: the WoDT Platform exposes a [SPARQL endpoint](https://www.w3.org/TR/2013/REC-sparql11-protocol-20130321/) to make read-only queries. An HTTP POST request with the SPARQL query in the request body (compatibly with the [SPARQL protocol](https://www.w3.org/TR/2013/REC-sparql11-protocol-20130321/)) allows consumers to perform SPARQL queries over the DT ecosystem Knowledge Graph.
 - *Observation of the DT ecosystem KG*: it is possible to observe the evolution of the DT ecosystem KG.
 - *Catalog service*: provides a catalog of all currently registered DTs to the ecosystem. 
 - *Directory service*: provides an efficient way to search for DTs that are associated to a specific PA, starting from the PA ID. This service allows Consumers to consult different representations of
