@@ -46,7 +46,9 @@ The scheme depicts the HWoDT idea. Physical Assets, from different domain and or
 ### The HWoDT Framework
 
 The **HWoDT Framework** is a set of tools developers can use to build heterogeneous DT ecosystems following the HWoDT vision. The tools are available as open-source projects in our [GitHub Organization](https://github.com/Web-of-Digital-Twins). \
-To ease the development of DT ecosystems involving existing DT technologies and to showcase how esily existing DTs can be ported to be HWoDT-compliant, our toolkit includes an implementation of the ***WoDT Platform*** and several ***HWoDT Adapter*** that enable the HWoDT uniform interface on top of existing technologies: 
-- [*Azure Digital Twins*](https://github.com/Web-of-Digital-Twins/azuredt-wodt-adapter)
-- [*Eclipse Ditto*](https://github.com/Web-of-Digital-Twins/ditto-wodt-adapter)
-- [*White Label Digital Twins*](https://github.com/Web-of-Digital-Twins/wldt-wodt-adapter)
+To ease the development of DT ecosystems involving existing DT technologies and to showcase how esily existing DTs can be ported to be HWoDT-compliant, our toolkit includes an implementation of the [***WoDT Platform***](/docs/hwodt-framework/wodt-platform) and several [***HWoDT Adapters***](/docs/category/hwodt-adapters/) that enable the HWoDT uniform interface on top of existing technologies. General and configurable adapters can be installed on the reference DT technology, making existing DTs compliant with HWoDT ecosystems. \
+The HWoDT Framework provide HWoDT Adapters for the following technologies:
+
+- [*Azure Digital Twins*](/docs/hwodt-framework/adapters/adt-adapter/)
+- [*White Label Digital Twins*](/docs/hwodt-framework/adapters/wldt-adapter/)
+- [*Eclipse Ditto*](/docs/hwodt-framework/adapters/ditto-adapter/)
