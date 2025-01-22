@@ -76,6 +76,20 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        // The application ID provided by Algolia
+        appId: '7HL0PTE5M5',
+  
+        // Public API key: it is safe to commit it
+        apiKey: '2237b97035dee1ab445575bc03573a74',
+  
+        indexName: 'web-of-digital-twinsio',
+  
+        contextualSearch: true,
+  
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search'
+      },
       // Replace with your project's social card
       image: 'img/hwodt_logo.svg',
       navbar: {
@@ -129,6 +143,10 @@ const config = {
                   href: 'https://web-of-digital-twins.github.io/wldt-wodt-adapter/documentation/openapi-doc/',
                 }
             ],
+          },
+          {
+            type: 'search',
+            position: 'right',
           },
           {
             href: 'https://github.com/Web-of-Digital-Twins',
