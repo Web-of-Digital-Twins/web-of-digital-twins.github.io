@@ -44,8 +44,8 @@ A DT is instead identified for its whole lifecycle by an *URI*, that allows to u
 
 ### Semantic representations
 A HWoDT DT exposes two forms of representations as part of its uniform interface:
-- **Digital Twin Description**: contains a static semantic description of DT’s metadata, DT model, exposed interaction patterns, and so on. It is fundamental for the automatic processing of Digital Twins. The content of the DTD depends only on the DT model and interface, so it does not depend on DT current state (or DTKG).
-- **Digital Twin Knowledge Graph**: models the current state of the DT through an RDF-based Knowledge Graph expressed with the reference ontologies for the domain of interest. It models the current property values, the available actions, and the relationship instances. This enables a Consumer to navigate in a domain-oriented representation of the world.
+- **Digital Twin Description (DTD)**: contains a static semantic description of DT’s metadata, DT model, exposed interaction patterns, and so on. It is fundamental for the automatic processing of Digital Twins. The content of the DTD depends only on the DT model and interface, so it does not depend on DT current state (or DTKG).
+- **Digital Twin Knowledge Graph (DTKG)**: models the current state of the DT through an RDF-based Knowledge Graph expressed with the reference ontologies for the domain of interest. It models the current property values, the available actions, and the relationship instances. This enables a Consumer to navigate in a domain-oriented representation of the world.
 
 When a DT URI is dereferenced returns the DTKG, enabling navigation in the current state of the world following DT relationships, compatibly with [*Linked Data Principles*](https://www.w3.org/DesignIssues/LinkedData.html).
 
