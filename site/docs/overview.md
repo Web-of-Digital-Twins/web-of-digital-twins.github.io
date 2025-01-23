@@ -26,7 +26,7 @@ The WoDT defines a general-purpose metamodel used to represent each DT:
 Hence, the **WoDT** is a dynamic set of indipendent DTs, each one with its model and state, linked according to the relationships between PAs that are reifed in the digital world.
 
 ### Why the HWoDT proposal?
-The wide applicability of the DT paradigm led to the creation of several technologies eg., [Azure Digital Twins](https://azure.microsoft.com/en-us/products/digital-twins), [AWS IoT TwinMaker](https://aws.amazon.com/iot-twinmaker/) [Eclipse Ditto](https://eclipse.dev/ditto/index.html).
+The wide applicability of the DT paradigm led to the creation of several technologies eg., [Azure Digital Twins](https://azure.microsoft.com/en-us/products/digital-twins), [AWS IoT TwinMaker](https://aws.amazon.com/iot-twinmaker/), [Eclipse Ditto](https://eclipse.dev/ditto/index.html).
 
 This technological heterogeneity must be considered to actually design and implement DT ecosystem, especially when they are created over legacy software or by including existing DTs -- that could be still needed for other consumers. With different technologies, Consumers need to be aware of the underlying stack to use the required API or SDK at hand. This could be problematic in the long-term, especially for highly dynamic ecosystems. So, the need for technological-hiding and for an uniform interface that enable applications to access the DTs within an ecosystem arise.
 
