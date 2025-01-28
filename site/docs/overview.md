@@ -4,8 +4,7 @@ sidebar_label: HWoDT Overview
 ---
 # HWoDT Overview
 
-This section is beneficial for gaining a high-level understanding of the **Web of Digital Twins (WoDT)** and of the **Hypermedia-based WoDT** proposal. \
-Following a short overview, an example based on the *Major Trauma Management* use case is presented.
+This section is beneficial for gaining a high-level understanding of the **Web of Digital Twins (WoDT)** and of the **Hypermedia-based WoDT** proposal.
 
 ## About Web of Digital Twins and HWoDT
 
