@@ -35,5 +35,7 @@ In the following a Components and Connectors diagram depicting the Eclipse Ditto
 Currently one instance of the Eclipse Ditto HWoDT Adapter can handle and adapt only one Ditto Thing.
 
 ### Useful links
-- **[GitHub repository](https://github.com/Web-of-Digital-Twins/azuredt-wodt-adapter)**
+- **[GitHub repository](https://github.com/Web-of-Digital-Twins/ditto-wodt-adapter)**
 - **[Configuration example](https://github.com/Web-of-Digital-Twins/major-trauma-management-case-study/tree/main/ditto-dts)**
+- **[Swagger API doc](https://web-of-digital-twins.github.io/ditto-wodt-adapter/documentation/openapi-doc/)**
+- **[Code documentation](https://web-of-digital-twins.github.io/ditto-wodt-adapter/documentation/code-doc/)**

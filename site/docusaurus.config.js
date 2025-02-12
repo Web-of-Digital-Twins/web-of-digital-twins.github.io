@@ -122,6 +122,10 @@ const config = {
                 {
                   label: 'wldt adapter',
                   href: 'https://web-of-digital-twins.github.io/wldt-wodt-adapter/documentation/code-doc/',
+                },
+                {
+                  label: 'ditto adapter',
+                  href: 'https://web-of-digital-twins.github.io/ditto-wodt-adapter/documentation/code-doc/',
                 }
             ],
           },
@@ -141,6 +145,10 @@ const config = {
                 {
                   label: 'wldt adapter',
                   href: 'https://web-of-digital-twins.github.io/wldt-wodt-adapter/documentation/openapi-doc/',
+                },
+                {
+                  label: 'ditto adapter',
+                  href: 'https://web-of-digital-twins.github.io/ditto-wodt-adapter/documentation/openapi-doc/',
                 }
             ],
           },
